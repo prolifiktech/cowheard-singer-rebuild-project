@@ -83,10 +83,10 @@ export function Footer() {
             © {currentYear} Cowheard, Singer & Company. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-background/60 hover:text-accent transition-colors text-sm">
+            <a href="/privacy-policy" className="text-background/60 hover:text-accent transition-colors text-sm">
               Privacy Policy
             </a>
-            <a href="#" className="text-background/60 hover:text-accent transition-colors text-sm">
+            <a href="/terms-of-service" className="text-background/60 hover:text-accent transition-colors text-sm">
               Terms of Service
             </a>
           </div>

@@ -8,6 +8,8 @@ import ForensicDispute from "./pages/ForensicDispute";
 import TaxConsulting from "./pages/TaxConsulting";
 import FinancialAccounting from "./pages/FinancialAccounting";
 import TheFirm from "./pages/TheFirm";
+import TermsOfService from "./pages/TermsOfService";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +26,8 @@ const App = () => (
           <Route path="/tax-consulting" element={<TaxConsulting />} />
           <Route path="/financial-accounting" element={<FinancialAccounting />} />
           <Route path="/the-firm" element={<TheFirm />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
